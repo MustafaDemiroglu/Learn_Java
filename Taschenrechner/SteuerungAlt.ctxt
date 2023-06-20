@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=s
+comment0.target=void\ empfangen(java.lang.String)
+comment0.text=\r\n\ Diese\ Methode\ empfaengt\ eine\ Stringnachricht,\ und\ je\ nach\ Inhalt\ der\ Nachricht\ wird\ die\r\n\ Verarbeitung\ an\ weitere\ Methoden\ delegiert.\r\n\ Wenn\ der\ eingegangene\ String\ fuer\ einen\ Operator\ steht,\ wird\ die\ dazu\ gehoerende\ Methode\ als\r\n\ Attribut\ "aktuelleRechenart"\ gespeichert\ -\ so\ umstaendlich,\ weil\ ich\ in\ Java\ die\ spaeter\ auszufuehrende\r\n\ Methode\ nicht\ direktals\ Attribut\ speichern\ kann.\r\n\ \r\n\ @param\ s\ Das\ eingehende\ Signal\r\n\ \r\n
+comment1.params=s
+comment1.target=void\ zahlVerarbeiten(java.lang.String)
+comment2.params=s
+comment2.target=void\ zweistelligeFunktionVerarbeiten(java.lang.String)
+comment3.params=s
+comment3.target=void\ einstelligeFunktionVerarbeiten(java.lang.String)
+comment4.params=s
+comment4.target=void\ booleanEinstelligVerarbeiten(java.lang.String)
+comment5.params=zahl1\ aktuelleRechenart\ zahl2
+comment5.target=double\ rechnen(double,\ java.lang.String,\ double)
+comment5.text=\r\n\ Diese\ Methode\ beauftragt\ den\ eigentlichen\ Rechner,\ die\ Rechung\ durchzufuehren,\r\n\ und\ gibt\ eine\ Zahl\ als\ Antwort\ zurueck.\r\n
+comment6.params=s
+comment6.target=java.lang.String\ kommaEntfernen(java.lang.String)
+comment6.text=\r\n\ Diese\ Funktion\ schneidet\ bei\ einem\ Ergebnis\ von\ x.0\ das\ .0\ weg.\r\n
+numComments=7

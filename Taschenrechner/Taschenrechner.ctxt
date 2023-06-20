@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Taschenrechner()
+comment1.params=a\ b
+comment1.target=double\ addieren(double,\ double)
+comment2.params=a\ b
+comment2.target=double\ subtrahieren(double,\ double)
+comment3.params=a
+comment3.target=double\ negation(double)
+comment4.params=a
+comment4.target=double\ quadrat(double)
+numComments=5

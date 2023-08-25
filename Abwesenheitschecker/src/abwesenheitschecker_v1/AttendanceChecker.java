@@ -23,6 +23,8 @@ public class AttendanceChecker {
                 }
             }
 
+            System.out.println(abwesendList);
+
             try (FileWriter writer = new FileWriter("abwesenheitsList.csv")) {
                 for (String abwesend : abwesendList) {
                     writer.write(abwesend + "\n");
@@ -31,6 +33,7 @@ public class AttendanceChecker {
                 e.printStackTrace();
             }
         }
+
     }
 
     private static List<String> readCSV(String filename) {

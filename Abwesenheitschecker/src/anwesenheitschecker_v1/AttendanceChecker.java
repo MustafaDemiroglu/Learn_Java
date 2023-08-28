@@ -1,11 +1,11 @@
-package abwesenheitschecker_v1;
+package anwesenheitschecker_v1;
 
 import javax.swing.*;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Abwesendheitschecker {
+public class AttendanceChecker {
     public static void main(String[] args) {
         JFileChooser fileChooser = new JFileChooser();
         int result = fileChooser.showOpenDialog(null);
@@ -23,6 +23,8 @@ public class Abwesendheitschecker {
                 }
             }
 
+            System.out.println(abwesendList);
+
             try (FileWriter writer = new FileWriter("abwesenheitsList.csv")) {
                 for (String abwesend : abwesendList) {
                     writer.write(abwesend + "\n");
@@ -31,6 +33,7 @@ public class Abwesendheitschecker {
                 e.printStackTrace();
             }
         }
+
     }
 
     private static List<String> readCSV(String filename) {

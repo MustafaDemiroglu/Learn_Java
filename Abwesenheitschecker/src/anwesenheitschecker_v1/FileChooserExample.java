@@ -1,4 +1,4 @@
-package abwesenheitschecker_v1;
+package anwesenheitschecker_v1;
 
 import javax.swing.*;
 import java.io.File;
